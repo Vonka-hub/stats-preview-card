@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  width: max-content;
+  position: relative;
+  top:100px;
+}
+.left{
+  display: inline-flex;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+}
+.textContainer{
+ margin: 40px;
+ margin-right: 120px;
+}
+
+.left h1{
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 40px;
+}
+.left span{
+  color: hsl(277, 64%, 61%);
+}
+.textContainer p{
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 25px;
+  line-height: 1.7;
+}
+
+.left .box{
+  display: inline-block;
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+
+.stat2{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.box h2{
+  font-family: 'Inter', sans-serif;;
+  color: hsl(0, 0%, 100%);
+}
+
+.box p{
+  margin-top: 7px;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+}
+
+/*  Image Css */
+/* it would be best to use another div as an overlay, playing with the z-index if necessary */
+.imgContainer{
+  height: 446px;
+  position: relative;
+}
+.filter{
+  
+  height: 446px;
+  width: 540px;
+  position: absolute;
+  background-color: rgba(99, 1, 160, 0.521);
+  border-radius: 0 10px 10px 0;
+}
+.corpoImg{
+ border-radius: 0 10px 10px 0;
+}
+
